@@ -1,5 +1,5 @@
 body{
-            background-color: magenta;
+            background-color: Yellow;
         }
         table, tr, th, td{
             border: 1px black solid;
@@ -7,7 +7,7 @@ body{
             border-radius: 10px;
         }
         header,footer{
-            background-color: yellow;
+            background-color: Green;
         }
         footer{
             color: black;
@@ -34,7 +34,7 @@ body{
         justify-content:space-evenly;
     }    
         a{
-            background-color: cyan;
+            background-color: red;
             padding:15px;
             border:2px black solid;
             text-decoration:none;
