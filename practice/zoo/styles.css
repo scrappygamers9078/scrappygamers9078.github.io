@@ -1,20 +1,45 @@
 body{
-    background-color:LemonChiffon;
-}
-
-table, th, tr, td{
-    border: 1px black solid;
-    border-collapse: collapse;
-}
-
-.big{
-    font-size: 2em;
-}
-
-.orange{
-    background-color: orange;
-}
-
-#six-seven{
-    font-size:0.67em;
-}
+            background-color: magenta;
+        }
+        table, tr, th, td{
+            border: 1px black solid;
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+        header,footer{
+            background-color: yellow;
+        }
+        footer{
+            color: black;
+            font-size: 2em;
+        }
+        header{
+            background-color: cyan;
+        }
+        .linen{
+            background-color: linen;
+        }
+        header{
+            border: 5px black solid;
+            margin: 20px;
+            margin-left: 0px;
+            padding: 100px;
+        }
+        ul{
+         display:flex ;
+        flex-direction:row;
+        list-style: none;
+        padding:0;
+        margin:0;
+        justify-content:space-evenly;
+    }    
+        a{
+            background-color: cyan;
+            padding:15px;
+            border:2px black solid;
+            text-decoration:none;
+                
+    }
+    a:hover{
+        color: black;
+    }
